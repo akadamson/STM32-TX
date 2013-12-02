@@ -4,4 +4,5 @@
 
 20130821 - beginning schematic capture - ADF7012 is pretty much complete on the radio side 
          - Note this is a VHF implementation at the moment with the final filter components, etc.
-         
+
+20131201 - added SIradio directory with v0.1 4464 radio.  Notes: is 3v3 only but could work on a pro-mini if 3v3 version.  Laid our for STM32-MiniF3 as a daughter card mate (sandwich).  This version is 144mhz version

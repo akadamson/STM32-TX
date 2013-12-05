@@ -868,7 +868,6 @@ Please make sure your boards conform to these design rules.</description>
 <via x="12.7" y="4.60375" extent="1-16" drill="0.3302"/>
 <via x="12.065" y="35.08375" extent="1-16" drill="0.3302"/>
 <via x="10.795" y="33.81375" extent="1-16" drill="0.3302"/>
-<via x="8.89" y="26.3525" extent="1-16" drill="0.3302"/>
 <contactref element="U$3" pad="18"/>
 <contactref element="JP2" pad="1"/>
 <contactref element="JP5" pad="1"/>
@@ -888,6 +887,8 @@ Please make sure your boards conform to these design rules.</description>
 <via x="6.6675" y="19.20875" extent="1-16" drill="0.3302"/>
 <via x="9.68375" y="16.98625" extent="1-16" drill="0.3302"/>
 <via x="10.31875" y="17.62125" extent="1-16" drill="0.3302"/>
+<via x="8.5725" y="26.19375" extent="1-16" drill="0.3302"/>
+<via x="9.2075" y="26.82875" extent="1-16" drill="0.3302"/>
 </signal>
 <signal name="3.3V">
 <contactref element="C32" pad="1"/>
@@ -1331,8 +1332,8 @@ Please make sure your boards conform to these design rules.</description>
 <approved hash="19,1,19e53711343c1ac8"/>
 <approved hash="19,1,19d13725373119c5"/>
 <approved hash="19,1,9b5ca9289707a573"/>
-<approved hash="19,1,9cd8112c120d9ff9"/>
 <approved hash="19,1,9cec111811009cf4"/>
+<approved hash="19,1,9cd8112c120d9ff9"/>
 <approved hash="19,1,a87c6c54e26729a1"/>
 <approved hash="4,16,673f4ff70459ceac"/>
 <approved hash="4,16,a93591fc4792f0a6"/>

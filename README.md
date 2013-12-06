@@ -9,3 +9,4 @@
 
 20131204 - updates SIradio with v0.2 4464 radio version… Nothing significant, just fixed some trace widths, some routing and added some silkscreen to the bottom of the board… Still working on final version ready for a board build.
 
+20131205 - changed the VCXO to the *tiny* version and verified the footprint (which was wrong prior :( ).

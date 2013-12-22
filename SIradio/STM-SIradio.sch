@@ -5463,7 +5463,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <library name="Ava">
 <packages>
 <package name="QFN20+GNDPAD">
-<smd name="GND" x="0" y="0" dx="2.6" dy="2.6" layer="1"/>
+<smd name="21" x="0" y="0" dx="2.6" dy="2.6" layer="1"/>
 <smd name="18" x="0" y="1.97" dx="0.25" dy="0.7" layer="1"/>
 <smd name="8" x="0" y="-1.97" dx="0.25" dy="0.7" layer="1"/>
 <smd name="17" x="0.5" y="1.97" dx="0.25" dy="0.7" layer="1"/>
@@ -5497,6 +5497,26 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 </packages>
 <symbols>
 <symbol name="SI4464">
+<wire x1="-2.54" y1="20.32" x2="-2.54" y2="15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="20.32" width="0.254" layer="94"/>
+<wire x1="5.08" y1="15.24" x2="5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="15.24" x2="-5.08" y2="20.32" width="0.254" layer="94"/>
+<wire x1="15.24" y1="5.08" x2="20.32" y2="5.08" width="0.254" layer="94"/>
+<wire x1="15.24" y1="2.54" x2="20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="0" x2="20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="20.32" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="20.32" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="5.08" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-15.24" x2="2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="-15.24" x2="0" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-15.24" x2="-2.54" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-20.32" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="5.08" x2="-20.32" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="2.54" x2="-20.32" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="0" x2="-20.32" y2="0" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-2.54" x2="-20.32" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-5.08" x2="-20.32" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="15.24" x2="-15.24" y2="7.62" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="7.62" x2="-15.24" y2="-15.24" width="0.254" layer="94"/>
 <wire x1="-15.24" y1="-15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
@@ -5522,8 +5542,9 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <pin name="GND2" x="0" y="20.32" length="middle" rot="R270"/>
 <pin name="GPIO2" x="-2.54" y="20.32" length="middle" rot="R270"/>
 <pin name="GPIO3" x="-5.08" y="20.32" length="middle" rot="R270"/>
-<text x="-4.1275" y="-0.9525" size="1.778" layer="94">SI4464</text>
+<wire x1="-15.24" y1="7.62" x2="-20.32" y2="7.62" width="0.254" layer="94"/>
 <pin name="GND" x="-20.32" y="7.62" length="middle"/>
+<text x="-4.1275" y="-0.9525" size="1.778" layer="94">SI4464</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -5534,7 +5555,7 @@ LILYPAD- DIO-09910&lt;br&gt;</description>
 <devices>
 <device name="" package="QFN20+GNDPAD">
 <connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND" pad="21"/>
 <connect gate="G$1" pin="GND2" pad="18"/>
 <connect gate="G$1" pin="GPIO0" pad="9"/>
 <connect gate="G$1" pin="GPIO1" pad="10"/>
@@ -7516,7 +7537,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="L7" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="68nH"/>
 <part name="L8" library="SparkFun-Passives" deviceset="INDUCTOR" device="0603" value="68nH"/>
 <part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="470pF"/>
-<part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="22pf"/>
+<part name="C24" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="22pF"/>
 <part name="C25" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="22pF"/>
 <part name="C26" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="18pF"/>
 <part name="C27" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="4.7pF"/>
@@ -7544,7 +7565,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603" value="10K"/>
 <part name="GND29" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND30" library="SparkFun" deviceset="GND" device=""/>
-<part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
+<part name="C18" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="100nF"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="56nF"/>
 <part name="C38" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="10nF"/>
 <part name="GND56" library="SparkFun" deviceset="GND" device=""/>
